@@ -1,0 +1,151 @@
+p,
+h1,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #274C77;
+}
+
+.banner {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #274c77;
+}
+
+.banner h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #E7ECEF;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.banner .university {
+    font-family: 'Ubuntu', sans-serif;
+    color: #E7ECEF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.block {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E7ECEF;
+}
+
+.block p {
+    color: #274C77;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.block h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #274c77;
+    font-size: 40px;
+}
+
+.block img {
+    width: 75px;
+    height: 75px;
+}
+
+.contact {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 500px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contact p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.contact h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.contact img {
+    width: 75px;
+    height: 75px;
+}
+
+@keyframes rainbow {
+    0% {
+        color: #2bb4aa;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        color: #4fcaa2;
+        left: 50px;
+        top: 50px;
+    }
+    50% {
+        color: #81dd91;
+        left: 50px;
+        top: 50px;
+    }
+    75% {
+        color: #baed7f;
+        left: 50px;
+        top: 50px;
+    }
+    100% {
+        color: #f9f871;
+        left: 50px;
+        top: 50px;
+    }
+}
+
+@keyframes rainbow-bg {
+    0% {
+        background-color: #2bb4aa;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: #4fcaa2;
+        left: 50px;
+        top: 50px;
+    }
+    50% {
+        background-color: #81dd91;
+        left: 50px;
+        top: 50px;
+    }
+    75% {
+        background-color: #baed7f;
+        left: 50px;
+        top: 50px;
+    }
+    100% {
+        background-color: #f9f871;
+        left: 50px;
+        top: 50px;
+    }
+}
+
+.rainbow {
+    animation: rainbow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+body {
+    animation: rainbow-bg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
